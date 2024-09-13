@@ -5,24 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mehdi</title>
+    <title>Home</title>
 </head>
 
 <body>
     <header class="header">
-
-        <nav>
-            <img src="./Img/test.webp" alt="logo">
+        <nav class="navbar">
+            <img src="./Img/test.webp" alt="Website Logo">
             <ul>
-                <li>poulet</li>
-                <li>chaussure</li>
-                <li>TV</li>
+                <li><a href="./index.html" aria-current="page"> Home </a></li>
+                <li><a href="./About.html"> About </a></li>
+                <li><a href="./Contact.html"> Contact </a></li>
             </ul>
-
         </nav>
     </header>
-    <img class="log" src="./Img/test.webp" alt="logo">
 
+    <main>
+        <section class="hero">
+            <img class="log" src="./Img/test.webp" alt="Main logo">
+            <h1>Welcome to Our Website</h1>
+            <p>Your one-stop solution for all your needs. Discover more about our services.</p>
+            <a href="./About.html" class="btn">Learn More</a>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h2>Feature 1</h2>
+                <p>Explanation of what the first feature does and why it's beneficial to the user.</p>
+            </div>
+            <div class="feature">
+                <h2>Feature 2</h2>
+                <p>Explanation of the second feature, detailing how it helps customers.</p>
+            </div>
+            <div class="feature">
+                <h2>Feature 3</h2>
+                <p>Description of the third feature and its unique selling points.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
